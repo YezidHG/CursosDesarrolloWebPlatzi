@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #b43c17;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: 200px auto;
+}
+
+.card {
+    background: #e97653;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.card__thumbnail {
+    width: 650px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.card__imgPakidex {
+    width: 80%;
+    height: 250px;
+}
+
+.card__titlePakiman {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+    color: rgb(209, 169, 147);
+}
+
+li{
+    color: rgb(209, 169, 147);
+    list-style: none;
+}
+
+.card__text {
+    border: 2px rgb(70, 25, 7) dotted;
+    border-radius: 2px;
+    background-color: rgb(136, 47, 12);
+    display: inline-block;
+}
+
+.boton {
+    border: none;
+	min-width: 180px;
+	height: 50px;
+	padding: 0 30px;
+	background: #000;
+	color: rgb(245, 203, 180);
+	display: inline-block;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(196, 70, 20);
+}
+
+.boton:hover {
+    background: rgb(180, 63, 17)
+}
